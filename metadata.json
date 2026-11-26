@@ -1,0 +1,6 @@
+{
+  "name": "SignBridge",
+  "description": "Real-time bidirectional sign language communication platform running entirely in the browser with MediaPipe, TensorFlow.js, Web Speech API, and Three.js.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

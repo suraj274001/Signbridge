@@ -1,0 +1,666 @@
+[
+  {
+    "id": "hello",
+    "gloss": "HELLO",
+    "labelEn": "Hello",
+    "labelHi": "नमस्ते",
+    "category": "greeting",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["hi", "hey", "namaste", "greetings"],
+    "description": "Open right palm raised near temple/shoulder and waved gently outward.",
+    "durationMs": 950,
+    "prototypeSpec": { "handshape": "flat_open", "motion": "wave", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.32, 1.48, 0.22], "handRot": [0, 0, -0.2], "fingers": [0.1, 0.05, 0.05, 0.05, 0.08], "spread": 0.6 }, "headRot": [0, 0, 0.04], "browLift": 0.2 },
+      { "t": 0.35, "right": { "handPos": [0.44, 1.54, 0.25], "handRot": [0, 0, -0.45], "fingers": [0.1, 0.05, 0.05, 0.05, 0.08], "spread": 0.7 }, "headRot": [0, 0, -0.04], "browLift": 0.25 },
+      { "t": 0.7, "right": { "handPos": [0.28, 1.52, 0.25], "handRot": [0, 0, -0.05], "fingers": [0.1, 0.05, 0.05, 0.05, 0.08], "spread": 0.7 }, "headRot": [0, 0, 0.03], "browLift": 0.2 },
+      { "t": 1, "right": { "handPos": [0.42, 1.48, 0.22], "handRot": [0, 0, -0.35], "fingers": [0.1, 0.05, 0.05, 0.05, 0.08], "spread": 0.5 }, "headRot": [0, 0, 0], "browLift": 0.1 }
+    ]
+  },
+  {
+    "id": "thank_you",
+    "gloss": "THANK_YOU",
+    "labelEn": "Thank you",
+    "labelHi": "धन्यवाद",
+    "category": "greeting",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["thanks", "grateful", "appreciate"],
+    "description": "Flat right fingertips touch near chin and arc smoothly forward toward listener.",
+    "durationMs": 950,
+    "prototypeSpec": { "handshape": "flat_open", "motion": "chin_out", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.06, 1.44, 0.22], "handRot": [-0.7, 0.2, 0.2], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05], "spread": 0.1 }, "headRot": [0.08, 0, 0], "browLift": 0.15 },
+      { "t": 0.5, "right": { "handPos": [0.08, 1.38, 0.36], "handRot": [-1.1, 0.1, 0.1], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05], "spread": 0.15 }, "headRot": [0.14, 0, 0], "browLift": 0.15 },
+      { "t": 1, "right": { "handPos": [0.1, 1.28, 0.45], "handRot": [-1.3, 0, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05], "spread": 0.2 }, "headRot": [0.05, 0, 0], "browLift": 0 }
+    ]
+  },
+  {
+    "id": "please",
+    "gloss": "PLEASE",
+    "labelEn": "Please",
+    "labelHi": "कृपया",
+    "category": "social",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["kindly", "request"],
+    "description": "Flat right palm placed against center chest moving in a gentle circular motion.",
+    "durationMs": 1050,
+    "prototypeSpec": { "handshape": "flat_open", "motion": "chest_circle", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.03, 1.24, 0.22], "handRot": [0.1, 1.35, 0], "fingers": [0.15, 0.08, 0.08, 0.08, 0.08], "spread": 0.1 }, "headRot": [0.05, 0, 0] },
+      { "t": 0.33, "right": { "handPos": [0.1, 1.29, 0.22], "handRot": [0.1, 1.35, -0.15], "fingers": [0.15, 0.08, 0.08, 0.08, 0.08], "spread": 0.1 }, "headRot": [0.06, 0, 0.03] },
+      { "t": 0.66, "right": { "handPos": [0.02, 1.18, 0.22], "handRot": [0.1, 1.35, 0.1], "fingers": [0.15, 0.08, 0.08, 0.08, 0.08], "spread": 0.1 }, "headRot": [0.05, 0, -0.02] },
+      { "t": 1, "right": { "handPos": [0.06, 1.25, 0.22], "handRot": [0.1, 1.35, 0], "fingers": [0.15, 0.08, 0.08, 0.08, 0.08], "spread": 0.1 }, "headRot": [0, 0, 0] }
+    ]
+  },
+  {
+    "id": "sorry",
+    "gloss": "SORRY",
+    "labelEn": "Sorry",
+    "labelHi": "माफ़ कीजिए",
+    "category": "social",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["apologize", "apology", "excuse"],
+    "description": "Closed fist rubbing gently over the chest in a circular apologetic gesture.",
+    "durationMs": 1000,
+    "prototypeSpec": { "handshape": "fist", "motion": "chest_circle", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.04, 1.24, 0.23], "handRot": [0.2, 1.2, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.12, 0, 0.08], "browLift": -0.3 },
+      { "t": 0.5, "right": { "handPos": [0.11, 1.29, 0.23], "handRot": [0.2, 1.2, -0.2], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.14, 0, -0.06], "browLift": -0.35 },
+      { "t": 1, "right": { "handPos": [0.03, 1.2, 0.23], "handRot": [0.2, 1.2, 0.1], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.1, 0, 0.04], "browLift": -0.25 }
+    ]
+  },
+  {
+    "id": "yes",
+    "gloss": "YES",
+    "labelEn": "Yes",
+    "labelHi": "हाँ",
+    "category": "social",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["yeah", "yep", "ok", "okay", "agree"],
+    "description": "Closed right fist nods up and down at the wrist in sync with an affirmative head nod.",
+    "durationMs": 850,
+    "prototypeSpec": { "handshape": "fist", "motion": "nod_tap", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.26, 1.32, 0.32], "handRot": [-0.2, 0, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "headRot": [-0.08, 0, 0] },
+      { "t": 0.35, "right": { "handPos": [0.26, 1.24, 0.35], "handRot": [0.55, 0, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.18, 0, 0] },
+      { "t": 0.7, "right": { "handPos": [0.26, 1.32, 0.32], "handRot": [-0.2, 0, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "headRot": [-0.06, 0, 0] },
+      { "t": 1, "right": { "handPos": [0.26, 1.24, 0.35], "handRot": [0.5, 0, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.14, 0, 0] }
+    ]
+  },
+  {
+    "id": "no",
+    "gloss": "NO",
+    "labelEn": "No",
+    "labelHi": "नहीं",
+    "category": "social",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["not", "nope", "never", "negative"],
+    "description": "Index finger waves side to side accompanied by a clear head shake (negation marker).",
+    "facialCue": "NEGATION",
+    "durationMs": 900,
+    "prototypeSpec": { "handshape": "point_index", "motion": "side_shake", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.22, 1.34, 0.34], "handRot": [0, 0, 0.28], "fingers": [0.8, 0.05, 0.95, 0.95, 0.95] }, "headRot": [0, -0.24, 0], "browLift": -0.2 },
+      { "t": 0.35, "right": { "handPos": [0.34, 1.34, 0.34], "handRot": [0, 0, -0.32], "fingers": [0.8, 0.05, 0.95, 0.95, 0.95] }, "headRot": [0, 0.24, 0], "browLift": -0.2 },
+      { "t": 0.7, "right": { "handPos": [0.2, 1.34, 0.34], "handRot": [0, 0, 0.28], "fingers": [0.8, 0.05, 0.95, 0.95, 0.95] }, "headRot": [0, -0.22, 0], "browLift": -0.2 },
+      { "t": 1, "right": { "handPos": [0.3, 1.34, 0.34], "handRot": [0, 0, -0.2], "fingers": [0.8, 0.05, 0.95, 0.95, 0.95] }, "headRot": [0, 0.14, 0], "browLift": -0.1 }
+    ]
+  },
+  {
+    "id": "help",
+    "gloss": "HELP",
+    "labelEn": "Help",
+    "labelHi": "मदद",
+    "category": "action",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["assist", "support", "aid"],
+    "description": "Right thumbs-up rests atop open left palm and both hands lift upward together.",
+    "durationMs": 950,
+    "prototypeSpec": { "handshape": "thumbs_up", "motion": "lift_up", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.06, 1.16, 0.34], "handRot": [0, -0.3, 0], "fingers": [0.05, 0.95, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.04, 1.1, 0.34], "handRot": [-1.3, 0, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 0.55, "right": { "handPos": [0.06, 1.36, 0.36], "handRot": [0, -0.3, 0], "fingers": [0.05, 0.95, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.04, 1.3, 0.36], "handRot": [-1.3, 0, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 1, "right": { "handPos": [0.06, 1.32, 0.36], "handRot": [0, -0.3, 0], "fingers": [0.05, 0.95, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.04, 1.26, 0.36], "handRot": [-1.3, 0, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } }
+    ]
+  },
+  {
+    "id": "water",
+    "gloss": "WATER",
+    "labelEn": "Water",
+    "labelHi": "पानी",
+    "category": "need",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["drink", "thirsty"],
+    "description": "Cupped C-handshape lifts toward the mouth twice as if drinking from a glass.",
+    "durationMs": 950,
+    "prototypeSpec": { "handshape": "cup_c", "motion": "nod_tap", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.18, 1.26, 0.3], "handRot": [0.2, 0.7, 0.2], "fingers": [0.45, 0.52, 0.54, 0.56, 0.58] } },
+      { "t": 0.5, "right": { "handPos": [0.08, 1.44, 0.25], "handRot": [-0.35, 0.8, 0.45], "fingers": [0.45, 0.52, 0.54, 0.56, 0.58] }, "headRot": [-0.08, 0, 0] },
+      { "t": 1, "right": { "handPos": [0.14, 1.32, 0.28], "handRot": [0.1, 0.7, 0.2], "fingers": [0.45, 0.52, 0.54, 0.56, 0.58] }, "headRot": [0, 0, 0] }
+    ]
+  },
+  {
+    "id": "food",
+    "gloss": "FOOD",
+    "labelEn": "Food",
+    "labelHi": "खाना",
+    "category": "need",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["eat", "hungry", "meal"],
+    "description": "Pinched fingertips move smoothly toward the mouth twice.",
+    "durationMs": 900,
+    "prototypeSpec": { "handshape": "pinch_o", "motion": "nod_tap", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.14, 1.34, 0.34], "handRot": [-0.4, 0.6, 0], "fingers": [0.68, 0.68, 0.68, 0.68, 0.68] } },
+      { "t": 0.35, "right": { "handPos": [0.05, 1.44, 0.22], "handRot": [-0.7, 0.7, 0], "fingers": [0.68, 0.68, 0.68, 0.68, 0.68] } },
+      { "t": 0.7, "right": { "handPos": [0.13, 1.35, 0.32], "handRot": [-0.4, 0.6, 0], "fingers": [0.68, 0.68, 0.68, 0.68, 0.68] } },
+      { "t": 1, "right": { "handPos": [0.05, 1.44, 0.22], "handRot": [-0.7, 0.7, 0], "fingers": [0.68, 0.68, 0.68, 0.68, 0.68] } }
+    ]
+  },
+  {
+    "id": "home",
+    "gloss": "HOME",
+    "labelEn": "Home",
+    "labelHi": "घर",
+    "category": "need",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["house", "residence"],
+    "description": "Both flat hands angle together at fingertips forming a peaked roof silhouette.",
+    "durationMs": 1000,
+    "prototypeSpec": { "handshape": "flat_open", "motion": "two_hand_meet", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.22, 1.24, 0.32], "handRot": [0, 0.2, 0.65], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.22, 1.24, 0.32], "handRot": [0, -0.2, -0.65], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 0.5, "right": { "handPos": [0.09, 1.42, 0.34], "handRot": [0, 0.2, 0.72], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.09, 1.42, 0.34], "handRot": [0, -0.2, -0.72], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 1, "right": { "handPos": [0.1, 1.38, 0.34], "handRot": [0, 0.2, 0.68], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.1, 1.38, 0.34], "handRot": [0, -0.2, -0.68], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } }
+    ]
+  },
+  {
+    "id": "name",
+    "gloss": "NAME",
+    "labelEn": "Name",
+    "labelHi": "नाम",
+    "category": "social",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["called", "identity"],
+    "description": "Two extended fingers (H/V handshape) tap gently twice atop the non-dominant hand.",
+    "durationMs": 900,
+    "prototypeSpec": { "handshape": "peace_v", "motion": "two_hand_meet", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.14, 1.32, 0.35], "handRot": [-0.6, -0.4, 0.6], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] }, "left": { "handPos": [-0.08, 1.2, 0.35], "handRot": [-0.6, 0.4, -0.6], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] } },
+      { "t": 0.4, "right": { "handPos": [0.02, 1.24, 0.36], "handRot": [-0.6, -0.4, 0.6], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] }, "left": { "handPos": [-0.04, 1.2, 0.36], "handRot": [-0.6, 0.4, -0.6], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] } },
+      { "t": 0.7, "right": { "handPos": [0.1, 1.3, 0.35], "handRot": [-0.6, -0.4, 0.6], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] }, "left": { "handPos": [-0.06, 1.2, 0.35], "handRot": [-0.6, 0.4, -0.6], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] } },
+      { "t": 1, "right": { "handPos": [0.02, 1.24, 0.36], "handRot": [-0.6, -0.4, 0.6], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] }, "left": { "handPos": [-0.04, 1.2, 0.36], "handRot": [-0.6, 0.4, -0.6], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] } }
+    ]
+  },
+  {
+    "id": "what",
+    "gloss": "WHAT",
+    "labelEn": "What",
+    "labelHi": "क्या",
+    "category": "question",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["which"],
+    "description": "Both palms turn upward and open outward with furrowed eyebrows (WH-question).",
+    "facialCue": "WH_QUESTION",
+    "durationMs": 950,
+    "prototypeSpec": { "handshape": "flat_open", "motion": "palm_flip", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.16, 1.2, 0.34], "handRot": [-1.2, 0, -0.2], "fingers": [0.15, 0.12, 0.12, 0.12, 0.15], "spread": 0.5 }, "left": { "handPos": [-0.16, 1.2, 0.34], "handRot": [-1.2, 0, 0.2], "fingers": [0.15, 0.12, 0.12, 0.12, 0.15], "spread": 0.5 }, "headRot": [0.08, 0.12, -0.06], "browLift": -0.65 },
+      { "t": 0.5, "right": { "handPos": [0.34, 1.24, 0.38], "handRot": [-1.4, -0.2, -0.4], "fingers": [0.1, 0.08, 0.08, 0.08, 0.1], "spread": 0.75 }, "left": { "handPos": [-0.34, 1.24, 0.38], "handRot": [-1.4, 0.2, 0.4], "fingers": [0.1, 0.08, 0.08, 0.08, 0.1], "spread": 0.75 }, "headRot": [0.1, 0.15, -0.08], "browLift": -0.7 },
+      { "t": 1, "right": { "handPos": [0.28, 1.22, 0.36], "handRot": [-1.35, -0.1, -0.3], "fingers": [0.12, 0.1, 0.1, 0.1, 0.12], "spread": 0.6 }, "left": { "handPos": [-0.28, 1.22, 0.36], "handRot": [-1.35, 0.1, 0.3], "fingers": [0.12, 0.1, 0.1, 0.1, 0.12], "spread": 0.6 }, "headRot": [0.06, 0.08, -0.04], "browLift": -0.5 }
+    ]
+  },
+  {
+    "id": "where",
+    "gloss": "WHERE",
+    "labelEn": "Where",
+    "labelHi": "कहाँ",
+    "category": "question",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["location", "place"],
+    "description": "Upward index finger oscillates briskly side to side with furrowed brows.",
+    "facialCue": "WH_QUESTION",
+    "durationMs": 900,
+    "prototypeSpec": { "handshape": "point_index", "motion": "wave", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.24, 1.38, 0.35], "handRot": [0, 0, 0.3], "fingers": [0.85, 0.04, 0.95, 0.95, 0.95] }, "headRot": [0.06, -0.1, 0.05], "browLift": -0.65 },
+      { "t": 0.35, "right": { "handPos": [0.36, 1.38, 0.35], "handRot": [0, 0, -0.35], "fingers": [0.85, 0.04, 0.95, 0.95, 0.95] }, "headRot": [0.08, 0.1, -0.05], "browLift": -0.7 },
+      { "t": 0.7, "right": { "handPos": [0.22, 1.38, 0.35], "handRot": [0, 0, 0.3], "fingers": [0.85, 0.04, 0.95, 0.95, 0.95] }, "headRot": [0.06, -0.08, 0.04], "browLift": -0.65 },
+      { "t": 1, "right": { "handPos": [0.32, 1.38, 0.35], "handRot": [0, 0, -0.25], "fingers": [0.85, 0.04, 0.95, 0.95, 0.95] }, "headRot": [0.05, 0.05, 0], "browLift": -0.5 }
+    ]
+  },
+  {
+    "id": "who",
+    "gloss": "WHO",
+    "labelEn": "Who",
+    "labelHi": "कौन",
+    "category": "question",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["person", "whom"],
+    "description": "Curved index finger circles lightly near the chin with furrowed eyebrows.",
+    "facialCue": "WH_QUESTION",
+    "durationMs": 950,
+    "prototypeSpec": { "handshape": "l_shape", "motion": "chest_circle", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.12, 1.42, 0.28], "handRot": [0.2, 0.8, 0], "fingers": [0.1, 0.25, 0.95, 0.95, 0.95] }, "headRot": [0.07, 0.1, 0], "browLift": -0.6 },
+      { "t": 0.5, "right": { "handPos": [0.06, 1.46, 0.3], "handRot": [0.2, 0.8, 0.2], "fingers": [0.1, 0.35, 0.95, 0.95, 0.95] }, "headRot": [0.09, 0.14, -0.05], "browLift": -0.7 },
+      { "t": 1, "right": { "handPos": [0.12, 1.41, 0.28], "handRot": [0.2, 0.8, 0], "fingers": [0.1, 0.25, 0.95, 0.95, 0.95] }, "headRot": [0.06, 0.08, 0], "browLift": -0.5 }
+    ]
+  },
+  {
+    "id": "why",
+    "gloss": "WHY",
+    "labelEn": "Why",
+    "labelHi": "क्यों",
+    "category": "question",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["reason", "because"],
+    "description": "Hand touches forehead and pulls forward into a Y-handshape with furrowed brows.",
+    "facialCue": "WH_QUESTION",
+    "durationMs": 1000,
+    "prototypeSpec": { "handshape": "y_shape", "motion": "forehead_out", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.12, 1.56, 0.22], "handRot": [0.2, 0.9, 0], "fingers": [0.1, 0.1, 0.1, 0.1, 0.1] }, "headRot": [0.06, 0.08, 0], "browLift": -0.6 },
+      { "t": 0.55, "right": { "handPos": [0.24, 1.46, 0.38], "handRot": [-0.2, 0.4, -0.2], "fingers": [0.05, 0.95, 0.95, 0.95, 0.05] }, "headRot": [0.1, 0.12, -0.06], "browLift": -0.7 },
+      { "t": 1, "right": { "handPos": [0.26, 1.42, 0.4], "handRot": [-0.3, 0.3, -0.2], "fingers": [0.05, 0.95, 0.95, 0.95, 0.05] }, "headRot": [0.06, 0.06, 0], "browLift": -0.5 }
+    ]
+  },
+  {
+    "id": "how",
+    "gloss": "HOW",
+    "labelEn": "How",
+    "labelHi": "कैसे",
+    "category": "question",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["method", "way"],
+    "description": "Curved hands meet knuckles-together and roll outward into open upward palms.",
+    "facialCue": "WH_QUESTION",
+    "durationMs": 1000,
+    "prototypeSpec": { "handshape": "cup_c", "motion": "palm_flip", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.08, 1.22, 0.32], "handRot": [0.5, 0.5, 0.4], "fingers": [0.45, 0.55, 0.55, 0.55, 0.55] }, "left": { "handPos": [-0.08, 1.22, 0.32], "handRot": [0.5, -0.5, -0.4], "fingers": [0.45, 0.55, 0.55, 0.55, 0.55] }, "headRot": [0.08, 0.08, 0], "browLift": -0.6 },
+      { "t": 0.6, "right": { "handPos": [0.22, 1.25, 0.38], "handRot": [-1.2, -0.2, -0.2], "fingers": [0.15, 0.15, 0.15, 0.15, 0.15], "spread": 0.4 }, "left": { "handPos": [-0.22, 1.25, 0.38], "handRot": [-1.2, 0.2, 0.2], "fingers": [0.15, 0.15, 0.15, 0.15, 0.15], "spread": 0.4 }, "headRot": [0.1, 0.1, -0.05], "browLift": -0.65 },
+      { "t": 1, "right": { "handPos": [0.2, 1.24, 0.36], "handRot": [-1.2, -0.1, -0.1], "fingers": [0.15, 0.15, 0.15, 0.15, 0.15] }, "left": { "handPos": [-0.2, 1.24, 0.36], "handRot": [-1.2, 0.1, 0.1], "fingers": [0.15, 0.15, 0.15, 0.15, 0.15] }, "headRot": [0.05, 0.05, 0], "browLift": -0.45 }
+    ]
+  },
+  {
+    "id": "you",
+    "gloss": "YOU",
+    "labelEn": "You",
+    "labelHi": "आप",
+    "category": "pronoun",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["your", "yours"],
+    "description": "Extended right index finger points directly forward toward the addressee.",
+    "durationMs": 750,
+    "prototypeSpec": { "handshape": "point_index", "motion": "point_out", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.16, 1.24, 0.28], "handRot": [-1.2, 0, 0], "fingers": [0.85, 0.04, 0.95, 0.95, 0.95] } },
+      { "t": 0.5, "right": { "handPos": [0.12, 1.28, 0.48], "handRot": [-1.45, 0, 0], "fingers": [0.85, 0.04, 0.95, 0.95, 0.95] } },
+      { "t": 1, "right": { "handPos": [0.14, 1.26, 0.42], "handRot": [-1.4, 0, 0], "fingers": [0.85, 0.04, 0.95, 0.95, 0.95] } }
+    ]
+  },
+  {
+    "id": "me",
+    "gloss": "ME",
+    "labelEn": "Me / I",
+    "labelHi": "मैं",
+    "category": "pronoun",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["i", "my", "myself"],
+    "description": "Extended index finger turns inward to touch the center of the signer's chest.",
+    "durationMs": 750,
+    "prototypeSpec": { "handshape": "point_index", "motion": "point_self", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.18, 1.26, 0.34], "handRot": [0.6, 1.4, 0], "fingers": [0.85, 0.04, 0.95, 0.95, 0.95] } },
+      { "t": 0.55, "right": { "handPos": [0.03, 1.26, 0.21], "handRot": [0.8, 1.5, 0.2], "fingers": [0.85, 0.04, 0.95, 0.95, 0.95] } },
+      { "t": 1, "right": { "handPos": [0.06, 1.25, 0.24], "handRot": [0.75, 1.45, 0.15], "fingers": [0.85, 0.04, 0.95, 0.95, 0.95] } }
+    ]
+  },
+  {
+    "id": "good",
+    "gloss": "GOOD",
+    "labelEn": "Good",
+    "labelHi": "अच्छा",
+    "category": "descriptor",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["great", "fine", "nice", "happy"],
+    "description": "Right thumbs-up rises cleanly in front of the chest with a slight affirmative nod.",
+    "durationMs": 850,
+    "prototypeSpec": { "handshape": "thumbs_up", "motion": "forward_arc", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.22, 1.2, 0.3], "handRot": [0, -0.3, 0], "fingers": [0.05, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0, 0, 0], "browLift": 0.2 },
+      { "t": 0.5, "right": { "handPos": [0.24, 1.36, 0.42], "handRot": [-0.15, -0.2, 0], "fingers": [0.05, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.1, 0, 0], "browLift": 0.3 },
+      { "t": 1, "right": { "handPos": [0.23, 1.32, 0.38], "handRot": [-0.1, -0.25, 0], "fingers": [0.05, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.02, 0, 0], "browLift": 0.15 }
+    ]
+  },
+  {
+    "id": "bad",
+    "gloss": "BAD",
+    "labelEn": "Bad",
+    "labelHi": "बुरा",
+    "category": "descriptor",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["terrible", "sad", "poor"],
+    "description": "Thumb flips downward with a short descending motion and furrowed brow.",
+    "durationMs": 850,
+    "prototypeSpec": { "handshape": "thumbs_up", "motion": "push_down", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.24, 1.34, 0.34], "handRot": [0, -0.3, 2.8], "fingers": [0.05, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.06, 0, 0], "browLift": -0.35 },
+      { "t": 0.55, "right": { "handPos": [0.24, 1.16, 0.38], "handRot": [0.2, -0.3, 3.1], "fingers": [0.05, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.1, 0.08, 0], "browLift": -0.4 },
+      { "t": 1, "right": { "handPos": [0.24, 1.18, 0.36], "handRot": [0.15, -0.3, 3.0], "fingers": [0.05, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.05, 0, 0], "browLift": -0.25 }
+    ]
+  },
+  {
+    "id": "morning",
+    "gloss": "MORNING",
+    "labelEn": "Morning",
+    "labelHi": "सुबह",
+    "category": "greeting",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["sunrise", "dawn"],
+    "description": "Right open arm rises upward from the horizontal left forearm like the morning sun.",
+    "durationMs": 1000,
+    "prototypeSpec": { "handshape": "flat_open", "motion": "lift_up", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.1, 1.12, 0.34], "handRot": [-0.3, 0.3, 0.3], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.08, 1.12, 0.34], "handRot": [-1.4, 0, -1.2], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 0.6, "right": { "handPos": [0.22, 1.44, 0.34], "handRot": [0, 0.1, -0.2], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05], "spread": 0.4 }, "left": { "handPos": [-0.08, 1.14, 0.34], "handRot": [-1.4, 0, -1.2], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 1, "right": { "handPos": [0.24, 1.42, 0.34], "handRot": [0, 0.1, -0.15], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05], "spread": 0.35 }, "left": { "handPos": [-0.08, 1.14, 0.34], "handRot": [-1.4, 0, -1.2], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } }
+    ]
+  },
+  {
+    "id": "night",
+    "gloss": "NIGHT",
+    "labelEn": "Night",
+    "labelHi": "रात",
+    "category": "greeting",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["evening", "dark"],
+    "description": "Curved right hand arcs downward over the left arm like sunset.",
+    "durationMs": 950,
+    "prototypeSpec": { "handshape": "flat_open", "motion": "push_down", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.18, 1.34, 0.35], "handRot": [0.4, 0.3, 0.2], "fingers": [0.2, 0.2, 0.2, 0.2, 0.2] }, "left": { "handPos": [-0.1, 1.15, 0.34], "handRot": [-1.3, 0, -1.1], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 0.65, "right": { "handPos": [0.02, 1.14, 0.36], "handRot": [1.1, 0.2, 0.3], "fingers": [0.25, 0.25, 0.25, 0.25, 0.25] }, "left": { "handPos": [-0.1, 1.14, 0.34], "handRot": [-1.3, 0, -1.1], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 1, "right": { "handPos": [0.02, 1.14, 0.36], "handRot": [1.0, 0.2, 0.25], "fingers": [0.25, 0.25, 0.25, 0.25, 0.25] }, "left": { "handPos": [-0.1, 1.14, 0.34], "handRot": [-1.3, 0, -1.1], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } }
+    ]
+  },
+  {
+    "id": "friend",
+    "gloss": "FRIEND",
+    "labelEn": "Friend",
+    "labelHi": "दोस्त",
+    "category": "social",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["buddy", "companion"],
+    "description": "Both hands clasp gently in front of the chest symbolizing friendship.",
+    "durationMs": 950,
+    "prototypeSpec": { "handshape": "claw", "motion": "two_hand_meet", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.2, 1.24, 0.34], "handRot": [0, 0.5, 0.3], "fingers": [0.4, 0.6, 0.6, 0.6, 0.6] }, "left": { "handPos": [-0.2, 1.24, 0.34], "handRot": [0, -0.5, -0.3], "fingers": [0.4, 0.6, 0.6, 0.6, 0.6] } },
+      { "t": 0.5, "right": { "handPos": [0.04, 1.24, 0.36], "handRot": [0.2, 0.8, 0.4], "fingers": [0.55, 0.72, 0.72, 0.72, 0.72] }, "left": { "handPos": [-0.04, 1.24, 0.36], "handRot": [-0.2, -0.8, -0.4], "fingers": [0.55, 0.72, 0.72, 0.72, 0.72] } },
+      { "t": 1, "right": { "handPos": [0.06, 1.26, 0.36], "handRot": [0.1, 0.7, 0.3], "fingers": [0.5, 0.65, 0.65, 0.65, 0.65] }, "left": { "handPos": [-0.06, 1.26, 0.36], "handRot": [-0.1, -0.7, -0.3], "fingers": [0.5, 0.65, 0.65, 0.65, 0.65] } }
+    ]
+  },
+  {
+    "id": "family",
+    "gloss": "FAMILY",
+    "labelEn": "Family",
+    "labelHi": "परिवार",
+    "category": "social",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["parents", "relatives"],
+    "description": "Pinched F-hands trace an inclusive circle outward in front of the torso.",
+    "durationMs": 1050,
+    "prototypeSpec": { "handshape": "pinch_o", "motion": "two_hand_meet", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.06, 1.26, 0.3], "handRot": [0, -0.4, 0], "fingers": [0.65, 0.65, 0.12, 0.12, 0.12] }, "left": { "handPos": [-0.06, 1.26, 0.3], "handRot": [0, 0.4, 0], "fingers": [0.65, 0.65, 0.12, 0.12, 0.12] } },
+      { "t": 0.5, "right": { "handPos": [0.28, 1.26, 0.36], "handRot": [0, 0.2, 0], "fingers": [0.65, 0.65, 0.12, 0.12, 0.12] }, "left": { "handPos": [-0.28, 1.26, 0.36], "handRot": [0, -0.2, 0], "fingers": [0.65, 0.65, 0.12, 0.12, 0.12] } },
+      { "t": 1, "right": { "handPos": [0.06, 1.26, 0.44], "handRot": [0, 0.9, 0], "fingers": [0.65, 0.65, 0.12, 0.12, 0.12] }, "left": { "handPos": [-0.06, 1.26, 0.44], "handRot": [0, -0.9, 0], "fingers": [0.65, 0.65, 0.12, 0.12, 0.12] } }
+    ]
+  },
+  {
+    "id": "doctor",
+    "gloss": "DOCTOR",
+    "labelEn": "Doctor",
+    "labelHi": "डॉक्टर",
+    "category": "need",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["physician", "medic"],
+    "description": "Right fingertips tap the inner pulse point of the left wrist twice.",
+    "durationMs": 950,
+    "prototypeSpec": { "handshape": "peace_v", "motion": "nod_tap", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.06, 1.24, 0.36], "handRot": [0.4, 0.3, 0.4], "fingers": [0.7, 0.1, 0.1, 0.9, 0.9] }, "left": { "handPos": [-0.1, 1.15, 0.35], "handRot": [-1.2, 0.2, -0.7], "fingers": [0.15, 0.15, 0.15, 0.15, 0.15] } },
+      { "t": 0.45, "right": { "handPos": [-0.05, 1.17, 0.36], "handRot": [0.6, 0.3, 0.5], "fingers": [0.7, 0.1, 0.1, 0.9, 0.9] }, "left": { "handPos": [-0.1, 1.15, 0.35], "handRot": [-1.2, 0.2, -0.7], "fingers": [0.15, 0.15, 0.15, 0.15, 0.15] } },
+      { "t": 1, "right": { "handPos": [-0.04, 1.18, 0.36], "handRot": [0.5, 0.3, 0.45], "fingers": [0.7, 0.1, 0.1, 0.9, 0.9] }, "left": { "handPos": [-0.1, 1.15, 0.35], "handRot": [-1.2, 0.2, -0.7], "fingers": [0.15, 0.15, 0.15, 0.15, 0.15] } }
+    ]
+  },
+  {
+    "id": "hospital",
+    "gloss": "HOSPITAL",
+    "labelEn": "Hospital",
+    "labelHi": "अस्पताल",
+    "category": "need",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["clinic", "medical"],
+    "description": "Two extended fingers trace a cross (+) on the upper left shoulder.",
+    "durationMs": 1000,
+    "prototypeSpec": { "handshape": "peace_v", "motion": "chest_circle", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [-0.14, 1.4, 0.22], "handRot": [0.2, 1.2, 0], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] } },
+      { "t": 0.45, "right": { "handPos": [-0.14, 1.28, 0.22], "handRot": [0.2, 1.2, 0], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] } },
+      { "t": 0.7, "right": { "handPos": [-0.21, 1.34, 0.22], "handRot": [0.2, 1.2, 0.5], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] } },
+      { "t": 1, "right": { "handPos": [-0.08, 1.34, 0.22], "handRot": [0.2, 1.2, 0.5], "fingers": [0.85, 0.05, 0.05, 0.95, 0.95] } }
+    ]
+  },
+  {
+    "id": "work",
+    "gloss": "WORK",
+    "labelEn": "Work",
+    "labelHi": "काम",
+    "category": "action",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["job", "office", "task"],
+    "description": "Right fist taps down onto the back of the left fist twice.",
+    "durationMs": 900,
+    "prototypeSpec": { "handshape": "fist", "motion": "two_hand_meet", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.08, 1.28, 0.34], "handRot": [0.6, 0.2, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.06, 1.15, 0.34], "handRot": [0.8, -0.2, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] } },
+      { "t": 0.4, "right": { "handPos": [0.01, 1.19, 0.34], "handRot": [0.8, 0.2, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.06, 1.15, 0.34], "handRot": [0.8, -0.2, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] } },
+      { "t": 0.7, "right": { "handPos": [0.08, 1.27, 0.34], "handRot": [0.6, 0.2, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.06, 1.15, 0.34], "handRot": [0.8, -0.2, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] } },
+      { "t": 1, "right": { "handPos": [0.01, 1.19, 0.34], "handRot": [0.8, 0.2, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.06, 1.15, 0.34], "handRot": [0.8, -0.2, 0], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] } }
+    ]
+  },
+  {
+    "id": "school",
+    "gloss": "SCHOOL",
+    "labelEn": "School",
+    "labelHi": "स्कूल",
+    "category": "need",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["college", "class", "study"],
+    "description": "Flat palms clap together twice in front of chest.",
+    "durationMs": 900,
+    "prototypeSpec": { "handshape": "flat_open", "motion": "nod_tap", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.16, 1.24, 0.34], "handRot": [0, 1.2, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.16, 1.24, 0.34], "handRot": [0, -1.2, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 0.4, "right": { "handPos": [0.03, 1.24, 0.36], "handRot": [0, 1.35, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.03, 1.24, 0.36], "handRot": [0, -1.35, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 0.7, "right": { "handPos": [0.14, 1.24, 0.34], "handRot": [0, 1.2, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.14, 1.24, 0.34], "handRot": [0, -1.2, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 1, "right": { "handPos": [0.03, 1.24, 0.36], "handRot": [0, 1.35, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.03, 1.24, 0.36], "handRot": [0, -1.35, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } }
+    ]
+  },
+  {
+    "id": "time",
+    "gloss": "TIME",
+    "labelEn": "Time / When",
+    "labelHi": "समय",
+    "category": "question",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["when", "clock", "hour"],
+    "description": "Right index finger taps the back of the left wrist where a wristwatch sits.",
+    "durationMs": 850,
+    "prototypeSpec": { "handshape": "point_index", "motion": "two_hand_meet", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.06, 1.26, 0.36], "handRot": [0.6, 0.3, 0.4], "fingers": [0.8, 0.05, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.1, 1.15, 0.35], "handRot": [0.9, 0.2, -0.6], "fingers": [0.3, 0.3, 0.3, 0.3, 0.3] } },
+      { "t": 0.45, "right": { "handPos": [-0.06, 1.17, 0.36], "handRot": [0.8, 0.3, 0.5], "fingers": [0.8, 0.05, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.1, 1.15, 0.35], "handRot": [0.9, 0.2, -0.6], "fingers": [0.3, 0.3, 0.3, 0.3, 0.3] } },
+      { "t": 1, "right": { "handPos": [-0.04, 1.2, 0.36], "handRot": [0.7, 0.3, 0.45], "fingers": [0.8, 0.05, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.1, 1.15, 0.35], "handRot": [0.9, 0.2, -0.6], "fingers": [0.3, 0.3, 0.3, 0.3, 0.3] } }
+    ]
+  },
+  {
+    "id": "wait",
+    "gloss": "WAIT",
+    "labelEn": "Wait",
+    "labelHi": "रुकिए",
+    "category": "action",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["hold", "pause", "moment"],
+    "description": "Both open palms face upward at waist height with fingers gently wiggling.",
+    "durationMs": 950,
+    "prototypeSpec": { "handshape": "claw", "motion": "wave", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.22, 1.18, 0.36], "handRot": [-1.25, 0, -0.1], "fingers": [0.2, 0.25, 0.1, 0.25, 0.1], "spread": 0.7 }, "left": { "handPos": [-0.22, 1.18, 0.36], "handRot": [-1.25, 0, 0.1], "fingers": [0.2, 0.1, 0.25, 0.1, 0.25], "spread": 0.7 } },
+      { "t": 0.5, "right": { "handPos": [0.22, 1.2, 0.37], "handRot": [-1.25, 0, -0.1], "fingers": [0.2, 0.1, 0.3, 0.1, 0.3], "spread": 0.7 }, "left": { "handPos": [-0.22, 1.2, 0.37], "handRot": [-1.25, 0, 0.1], "fingers": [0.2, 0.3, 0.1, 0.3, 0.1], "spread": 0.7 } },
+      { "t": 1, "right": { "handPos": [0.22, 1.18, 0.36], "handRot": [-1.25, 0, -0.1], "fingers": [0.2, 0.25, 0.1, 0.25, 0.1], "spread": 0.7 }, "left": { "handPos": [-0.22, 1.18, 0.36], "handRot": [-1.25, 0, 0.1], "fingers": [0.2, 0.1, 0.25, 0.1, 0.25], "spread": 0.7 } }
+    ]
+  },
+  {
+    "id": "stop",
+    "gloss": "STOP",
+    "labelEn": "Stop",
+    "labelHi": "बंद कीजिए",
+    "category": "action",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["halt", "freeze", "cease"],
+    "description": "Flat right hand edge chops firmly down onto open upward left palm.",
+    "durationMs": 800,
+    "prototypeSpec": { "handshape": "flat_open", "motion": "push_down", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.1, 1.38, 0.35], "handRot": [-0.2, 1.1, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.04, 1.15, 0.35], "handRot": [-1.45, 0, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 0.55, "right": { "handPos": [0.02, 1.18, 0.36], "handRot": [-0.2, 1.2, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.04, 1.14, 0.35], "handRot": [-1.45, 0, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } },
+      { "t": 1, "right": { "handPos": [0.02, 1.18, 0.36], "handRot": [-0.2, 1.2, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] }, "left": { "handPos": [-0.04, 1.14, 0.35], "handRot": [-1.45, 0, 0], "fingers": [0.1, 0.05, 0.05, 0.05, 0.05] } }
+    ]
+  },
+  {
+    "id": "go",
+    "gloss": "GO",
+    "labelEn": "Go",
+    "labelHi": "जाइए",
+    "category": "action",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["leave", "depart", "move"],
+    "description": "Both index fingers arc forward together away from the body.",
+    "durationMs": 850,
+    "prototypeSpec": { "handshape": "point_index", "motion": "forward_arc", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.16, 1.28, 0.28], "handRot": [-0.3, 0, 0], "fingers": [0.85, 0.05, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.16, 1.28, 0.28], "handRot": [-0.3, 0, 0], "fingers": [0.85, 0.05, 0.95, 0.95, 0.95] } },
+      { "t": 0.65, "right": { "handPos": [0.18, 1.24, 0.48], "handRot": [-1.45, 0, 0], "fingers": [0.85, 0.05, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.18, 1.24, 0.48], "handRot": [-1.45, 0, 0], "fingers": [0.85, 0.05, 0.95, 0.95, 0.95] } },
+      { "t": 1, "right": { "handPos": [0.18, 1.23, 0.46], "handRot": [-1.4, 0, 0], "fingers": [0.85, 0.05, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.18, 1.23, 0.46], "handRot": [-1.4, 0, 0], "fingers": [0.85, 0.05, 0.95, 0.95, 0.95] } }
+    ]
+  },
+  {
+    "id": "come",
+    "gloss": "COME",
+    "labelEn": "Come",
+    "labelHi": "आइए",
+    "category": "action",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["arrive", "approach"],
+    "description": "Both index fingers beckon smoothly inward toward the signer.",
+    "durationMs": 850,
+    "prototypeSpec": { "handshape": "point_index", "motion": "point_self", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.18, 1.26, 0.48], "handRot": [-1.2, 0, 0], "fingers": [0.85, 0.05, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.18, 1.26, 0.48], "handRot": [-1.2, 0, 0], "fingers": [0.85, 0.05, 0.95, 0.95, 0.95] } },
+      { "t": 0.65, "right": { "handPos": [0.14, 1.26, 0.25], "handRot": [0.2, 0.3, 0], "fingers": [0.85, 0.15, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.14, 1.26, 0.25], "handRot": [0.2, -0.3, 0], "fingers": [0.85, 0.15, 0.95, 0.95, 0.95] } },
+      { "t": 1, "right": { "handPos": [0.14, 1.25, 0.27], "handRot": [0.1, 0.25, 0], "fingers": [0.85, 0.1, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.14, 1.25, 0.27], "handRot": [0.1, -0.25, 0], "fingers": [0.85, 0.1, 0.95, 0.95, 0.95] } }
+    ]
+  },
+  {
+    "id": "understand",
+    "gloss": "UNDERSTAND",
+    "labelEn": "Understand",
+    "labelHi": "समझ",
+    "category": "action",
+    "signLanguage": "ISL",
+    "handedness": "one-hand",
+    "synonyms": ["know", "clear", "got it"],
+    "description": "Closed fist near temple flicks index finger straight upward like a lightbulb moment.",
+    "durationMs": 850,
+    "prototypeSpec": { "handshape": "l_shape", "motion": "forehead_out", "twoHanded": false },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.18, 1.54, 0.24], "handRot": [0, 0.8, 0], "fingers": [0.85, 0.92, 0.95, 0.95, 0.95] }, "headRot": [0, 0, 0] },
+      { "t": 0.5, "right": { "handPos": [0.2, 1.58, 0.28], "handRot": [0, 0.6, -0.1], "fingers": [0.8, 0.04, 0.95, 0.95, 0.95] }, "headRot": [0.06, 0, 0], "browLift": 0.25 },
+      { "t": 1, "right": { "handPos": [0.2, 1.56, 0.28], "handRot": [0, 0.6, -0.1], "fingers": [0.8, 0.04, 0.95, 0.95, 0.95] }, "headRot": [0, 0, 0], "browLift": 0.1 }
+    ]
+  },
+  {
+    "id": "want",
+    "gloss": "WANT",
+    "labelEn": "Want / Need",
+    "labelHi": "चाहिए",
+    "category": "action",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["need", "desire"],
+    "description": "Both open upward palms curl into clawed fingers while drawing gently inward.",
+    "durationMs": 900,
+    "prototypeSpec": { "handshape": "claw", "motion": "point_self", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.22, 1.2, 0.44], "handRot": [-1.25, 0, 0], "fingers": [0.2, 0.2, 0.2, 0.2, 0.2], "spread": 0.6 }, "left": { "handPos": [-0.22, 1.2, 0.44], "handRot": [-1.25, 0, 0], "fingers": [0.2, 0.2, 0.2, 0.2, 0.2], "spread": 0.6 } },
+      { "t": 0.6, "right": { "handPos": [0.18, 1.2, 0.28], "handRot": [-1.1, 0, 0], "fingers": [0.45, 0.65, 0.68, 0.7, 0.7], "spread": 0.4 }, "left": { "handPos": [-0.18, 1.2, 0.28], "handRot": [-1.1, 0, 0], "fingers": [0.45, 0.65, 0.68, 0.7, 0.7], "spread": 0.4 } },
+      { "t": 1, "right": { "handPos": [0.18, 1.2, 0.3], "handRot": [-1.1, 0, 0], "fingers": [0.4, 0.6, 0.62, 0.65, 0.65], "spread": 0.4 }, "left": { "handPos": [-0.18, 1.2, 0.3], "handRot": [-1.1, 0, 0], "fingers": [0.4, 0.6, 0.62, 0.65, 0.65], "spread": 0.4 } }
+    ]
+  },
+  {
+    "id": "love",
+    "gloss": "LOVE",
+    "labelEn": "Love",
+    "labelHi": "प्यार",
+    "category": "social",
+    "signLanguage": "ISL",
+    "handedness": "two-hand",
+    "synonyms": ["care", "affection"],
+    "description": "Both closed fists cross warmly over the chest like an embrace.",
+    "durationMs": 1000,
+    "prototypeSpec": { "handshape": "fist", "motion": "chest_circle", "twoHanded": true },
+    "keyframes": [
+      { "t": 0, "right": { "handPos": [0.14, 1.26, 0.3], "handRot": [0.2, 1.1, 0.4], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "left": { "handPos": [-0.14, 1.26, 0.3], "handRot": [0.2, -1.1, -0.4], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] } },
+      { "t": 0.55, "right": { "handPos": [-0.08, 1.28, 0.22], "handRot": [0.2, 1.4, 0.5], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "left": { "handPos": [0.08, 1.26, 0.24], "handRot": [0.2, -1.4, -0.5], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.05, 0, 0.08], "browLift": 0.15 },
+      { "t": 1, "right": { "handPos": [-0.06, 1.27, 0.23], "handRot": [0.2, 1.35, 0.45], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "left": { "handPos": [0.06, 1.25, 0.25], "handRot": [0.2, -1.35, -0.45], "fingers": [0.85, 0.95, 0.95, 0.95, 0.95] }, "headRot": [0.03, 0, 0.04] }
+    ]
+  }
+]
